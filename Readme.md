@@ -1,0 +1,2 @@
+Esse Script foi criado com a finalidade de incluir varios computadores de um dominio no WSUS. Utilizando apenas alguns arquivos .bat e uma aplicacao chamada PsExec.
+Para utilizar e simples, basta tirar um export dos devices presentes no WSUS e os presentes no AD, assim o script compara quais estao presentes no AD e nao no WSUS, rodando o arquivo .bat nesses devices assim os incluindo.
